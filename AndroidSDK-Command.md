@@ -33,7 +33,7 @@ https://developer.android.com/studio/#downloads
  `$ android`
 
 5. To install SDK platform and tools by sdkmanager
- 
+ ```
   Android SDK Platform 28
  `$ sdkmanager "platforms;android-28"`
  
@@ -48,3 +48,4 @@ https://developer.android.com/studio/#downloads
 
   Android SDK Build-Tools 28.0.3 is selected
  `$ sdkmanager "build-tools;28.0.3"`
+ ```
