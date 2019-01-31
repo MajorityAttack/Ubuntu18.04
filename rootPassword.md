@@ -1,4 +1,4 @@
-# How to reset root password on ubuntu 18.04 system in GCP
+# How to reset root password in GCP
 
 ## login the GCP SSH (webpage)of instance
 ```sh
