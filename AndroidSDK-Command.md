@@ -32,7 +32,19 @@ https://developer.android.com/studio/#downloads
 
  `$ android`
 
-### Notice: All diff version of jdk should be install in /usr/local/lib dir.
+5. To install SDK platform and tools by sdkmanager
+ 
+  Android SDK Platform 28
+ `$ sdkmanager "platforms;android-28"`
+ 
+  Android SDK source 28
+  `$ sdkmanager "sources;android-28"`
+  
+  Intel x86 Atom_64 System Image
+ `$ sdkmanager "system-images;android-28;default;x86_64"`
+ 
+  Google APIs Intel x86 Atom System Image
+ `$ sdkmanager "system-images;android-28;google_apis;x86_64"`
 
-### If you have many version jdk to alter, the links show the detail:
-
+  Android SDK Build-Tools 28.0.3 is selected
+ `$ sdkmanager "build-tools;28.0.3"`
