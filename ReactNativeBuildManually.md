@@ -42,5 +42,9 @@ react-native bundle --platform android --dev false --entry-file index.js --bundl
 ii) If there are two files i.e index.android.js and index.ios.js then run this
 react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
 ```
+```
+ More detail discription:https://github.com/react-native-community/lottie-react-native/issues/269
+```
 ##  6. build and run the apk (reference 2,3 step)
 ## Now you can successfully to build react native project manunally.
+<img src="https://user-images.githubusercontent.com/45811181/52101647-8345be00-2617-11e9-9714-4ddab80e694b.png" width="300">
