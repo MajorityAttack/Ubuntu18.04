@@ -26,6 +26,7 @@
 
 ##  4. error occure
 "unable to load script from assets 'index.android.bundle'"
+
  <img src="https://user-images.githubusercontent.com/13952270/35189113-fd583f76-fdf8-11e7-937e-b03d8bd13a37.png" width="300">
  
 ##  5. To fix this error
