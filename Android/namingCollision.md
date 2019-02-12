@@ -1,6 +1,6 @@
 ### how to solve the naming collision error?
 
-## what is naming collision?
+## 1 what is naming collision?
 ./node_modules/metro module will hash all the files' content in the project and manage these hash values as file names.
 if two files are same, so the hash values of these file are same. It means maning collssion in "metro file system".
 
@@ -16,7 +16,7 @@ Error: @providesModule naming collision:
   Paths: /Users/thurt/projects/example/package.json collides with /Users/thurt/projects/example/dist/esdoc/package.json
 ```
 
-## how to fix?
+## 2 how to fix?
 
 You can create a file in your project root called rn-cli.config.js with the (version specific) contents as below:
 ```sh
@@ -31,7 +31,10 @@ module.exports = {
   }
 };
 ```
-## then ./gradlew assembleDebug
+## 3 At last
+```sh
+./gradlew assembleDebug
+```
 
 ## If you build by react-native command
 Have your CLI command use this config by passing the --config option:
