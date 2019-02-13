@@ -28,3 +28,6 @@ You can change the URL with:
 ```
 git remote set-url origin git+ssh://git@github.com/username/reponame.git
 ```
+
+reference:
+https://stackoverflow.com/questions/8588768/how-do-i-avoid-the-specification-of-the-username-and-password-at-every-git-push
