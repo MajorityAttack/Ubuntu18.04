@@ -22,7 +22,9 @@ project.ext.react = [
     bundleInDebug: true,
 
     // whether to bundle JS and assets in release mode
-    bundleInRelease: true,
+    // Notice: the bundle is opened in Release mode, There is no need to set it with true. !!!!!
+    // When ./gradlew assembleRelease issued, the  Task :app:bundleReleaseJsAndAssets is include defaultly.
+    // bundleInRelease: true,
 
     // by default the gradle tasks are skipped if none of the JS files or assets change; this means
     // that we don't look at files in android/ or ios/ to determine whether the tasks are up to
